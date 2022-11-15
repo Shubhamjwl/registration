@@ -5,11 +5,7 @@ on:
     types: [closed]
   push:
     branches:
-      - '!release-branch'
-      - release-1*
-      - master
-      - 1.*
-      - develop
+      - mosip-24572_develop
 jobs:
   build:
     runs-on: ubuntu-latest
